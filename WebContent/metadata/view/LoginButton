@@ -1,0 +1,16 @@
+{
+    "type": "button",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginButton",
+        "designer|initialView": true,
+        "itemId": "LoginButton",
+        "text": "Acceso Clientes"
+    },
+    "id": "ExtBox1-ext-gen2036",
+    "designerId": "40180686-564b-465f-bd96-c75d340a3182"
+}

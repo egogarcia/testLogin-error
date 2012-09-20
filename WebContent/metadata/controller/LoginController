@@ -1,0 +1,72 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginController",
+        "stores": [
+            "UserJsonStore"
+        ]
+    },
+    "id": "ExtBox1-ext-gen2537",
+    "designerId": "e240b7ff-cd12-4593-b533-dacd78b2f640",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onLoginButtonClick",
+                "fn": "onLoginButtonClick",
+                "implHandler": [
+                    "console.log(\"Show LoginWindow\");\r",
+                    "Ext.create('MyApp.view.LoginWindow').show();"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Button",
+                "designer|controlQuery": "button#LoginButton"
+            },
+            "designerId": "04a625bd-db68-46ea-b852-47f09dacf2f1"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onDoLoginButtonClick",
+                "fn": "onDoLoginButtonClick",
+                "implHandler": [
+                    "console.log(\"Do Login!!!\");\r",
+                    "\r",
+                    "var window = Ext.getCmp('LoginWindow'),\r",
+                    "userName = window.getComponent('UserNameTextField').getValue(),\r",
+                    "pass = window.getComponent('PasswordTextField').getValue();\r",
+                    "\r",
+                    "\r",
+                    "record = Ext.create('MyApp.model.UserModel');\r",
+                    "record.set( 'UserName', userName);\r",
+                    "record.set( 'Pass', pass);\r",
+                    "\r",
+                    "record.save();\r",
+                    "\r",
+                    "win.close();"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Button",
+                "designer|controlQuery": "button#DoLoginButton"
+            },
+            "designerId": "9ba9793e-33a7-4de9-b34f-129d5bebe665"
+        }
+    ]
+}

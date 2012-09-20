@@ -1,0 +1,41 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "RolModel"
+    },
+    "id": "ExtBox1-ext-gen2859",
+    "designerId": "5981da76-cacf-41a1-9c70-a491d02dae12",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field2",
+                "name": "UserName"
+            },
+            "designerId": "faae4b17-586b-4f82-9b86-9cfead821958"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field3",
+                "name": "Rol"
+            },
+            "designerId": "9e3c5778-2bb0-497d-984b-d334ea759042"
+        }
+    ]
+}

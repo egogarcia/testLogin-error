@@ -1,0 +1,95 @@
+{
+    "name": "WebContent",
+    "settings": {
+        "urlPrefix": "http://localhost:8080/smf",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 613,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000497,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "40180686-564b-465f-bd96-c75d340a3182": {
+            "paths": [
+                "metadata/view/LoginButton",
+                "app/view/override/LoginButton.js",
+                "app/view/LoginButton.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "LoginButton"
+        },
+        "4fedf75b-0a64-4c1c-ae11-1a3da230a58b": {
+            "paths": [
+                "metadata/view/LoginWindow",
+                "app/view/override/LoginWindow.js",
+                "app/view/LoginWindow.js"
+            ],
+            "className": "LoginWindow"
+        },
+        "e240b7ff-cd12-4593-b533-dacd78b2f640": {
+            "paths": [
+                "metadata/controller/LoginController",
+                "app/controller/override/LoginController.js",
+                "app/controller/LoginController.js"
+            ],
+            "className": "LoginController"
+        },
+        "ae99685a-f9a8-4d2c-aeee-afe3d132aabc": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "b3f89045-0a08-4c22-9773-96e6b164623e": {
+            "paths": [
+                "metadata/store/UserJsonStore",
+                "app/store/override/UserJsonStore.js",
+                "app/store/UserJsonStore.js"
+            ],
+            "className": "UserJsonStore"
+        },
+        "73b66131-e1d3-4fb5-a03d-5626d4d4e4a5": {
+            "paths": [
+                "metadata/model/UserModel",
+                "app/model/override/UserModel.js",
+                "app/model/UserModel.js"
+            ],
+            "className": "UserModel"
+        },
+        "5981da76-cacf-41a1-9c70-a491d02dae12": {
+            "paths": [
+                "metadata/model/RolModel",
+                "app/model/override/RolModel.js",
+                "app/model/RolModel.js"
+            ],
+            "className": "RolModel"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "40180686-564b-465f-bd96-c75d340a3182",
+            "4fedf75b-0a64-4c1c-ae11-1a3da230a58b"
+        ],
+        "store": [
+            "b3f89045-0a08-4c22-9773-96e6b164623e"
+        ],
+        "controller": [
+            "e240b7ff-cd12-4593-b533-dacd78b2f640"
+        ],
+        "model": [
+            "73b66131-e1d3-4fb5-a03d-5626d4d4e4a5",
+            "5981da76-cacf-41a1-9c70-a491d02dae12"
+        ],
+        "resource": [
+            "ae99685a-f9a8-4d2c-aeee-afe3d132aabc"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

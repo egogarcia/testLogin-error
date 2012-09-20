@@ -1,0 +1,65 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "UserJsonStore",
+        "storeId": "MyJsonStore",
+        "model": "UserModel"
+    },
+    "id": "ExtBox1-ext-gen21419",
+    "designerId": "b3f89045-0a08-4c22-9773-96e6b164623e",
+    "cn": [
+        {
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "doLogin.action"
+            },
+            "designerId": "13ec3e13-fd13-4fd1-95aa-16ada3c0d194",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "model": "Rol",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "054232f2-93b1-45f8-a90f-22442594da1f",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "model",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "jsonwriter",
+                    "reference": {
+                        "name": "writer",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonWriter",
+                        "encode": true
+                    },
+                    "designerId": "013d9500-c5f5-4aef-9143-4fd003ae57bb"
+                }
+            ]
+        }
+    ]
+}

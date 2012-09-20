@@ -1,0 +1,24 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "RolModel"
+        ],
+        "views": [
+            "LoginButton",
+            "LoginWindow"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp",
+        "controllers": [
+            "LoginController"
+        ]
+    },
+    "id": "ExtBox1-ext-gen1726",
+    "designerId": "application"
+}

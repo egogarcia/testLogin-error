@@ -1,0 +1,74 @@
+{
+    "type": "window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userClassName": "LoginWindow",
+        "height": 205,
+        "id": "LoginWindow",
+        "itemId": "LoginWindow",
+        "width": 400,
+        "autoScroll": false,
+        "layout": "vbox",
+        "title": "Acceso Clientes"
+    },
+    "id": "ExtBox1-ext-gen3558",
+    "designerId": "4fedf75b-0a64-4c1c-ae11-1a3da230a58b",
+    "cn": [
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 0,
+                "designer|userClassName": "MyTextField",
+                "itemId": "UserNameTextField",
+                "width": 235,
+                "fieldLabel": "Usuario"
+            },
+            "designerId": "f76a5f16-a6e5-49f4-a59e-5faefc2297cc"
+        },
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 0,
+                "designer|userClassName": "MyTextField1",
+                "itemId": "PasswordTextField",
+                "inputType": "password",
+                "fieldLabel": "Password",
+                "minLength": 8
+            },
+            "designerId": "89eb8953-1b8f-4bc9-8551-2d09a8231f2b"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyButton1",
+                "height": 25,
+                "itemId": "DoLoginButton",
+                "width": 110,
+                "text": "Acceder"
+            },
+            "designerId": "c9afae42-9593-4f47-8209-47e25797687f"
+        }
+    ]
+}
